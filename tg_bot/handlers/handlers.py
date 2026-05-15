@@ -1,10 +1,7 @@
 from aiogram import Router, F, types
-import secrets
-import sqlite3
 from aiogram.filters import Command
 import aiohttp
 from aiogram.fsm.context import FSMContext
-from aiogram.types import CallbackQuery
 from aiogram.fsm.state import StatesGroup, State
 import os
 import asyncio
